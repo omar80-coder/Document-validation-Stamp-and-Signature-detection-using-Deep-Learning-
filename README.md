@@ -10,8 +10,8 @@ MLflow integration for experiment tracking
 
 Setup
 
-Install required packages:
-Copypip install torch torchvision tqdm albumentations mlflow fvcore
+###Install required packages:
+##pip install torch torchvision tqdm albumentations mlflow fvcore
 
 Prepare your dataset:
 
