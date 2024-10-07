@@ -14,11 +14,11 @@ The core of the project is the RetinaNet model, implemented using the PyTorch de
 
 ## Training and Evaluation
 
-The project includes a training script (`train.py`) that handles model training, validation, and checkpointing. During training, the model learns to recognize patterns and features associated with stamps and signatures in invoices. Evaluation is performed using a separate script (`evaluate.py`) to assess the model's performance on a held-out test dataset. Metrics such as mean Average Precision (mAP) are used to quantify the accuracy of detections.
+The project includes a training script  that handles model training, validation, and checkpointing. During training, the model learns to recognize patterns and features associated with stamps and signatures in invoices. Evaluation is performed using a separate script  to assess the model's performance on a held-out test dataset. Metrics such as mean Average Precision (mAP) are used to quantify the accuracy of detections.
 
 ## Detection
 
-The trained model can be used to detect stamps and signatures in new invoice images. The `detect.py` script provides functionality for loading the model, processing images, and visualizing the detected elements. Bounding boxes are drawn around the identified stamps and signatures, allowing users to quickly locate and extract these key information pieces.
+The trained model can be used to detect stamps and signatures in new invoice images. The detection script provides functionality for loading the model, processing images, and visualizing the detected elements. Bounding boxes are drawn around the identified stamps and signatures, allowing users to locate and extract these key information pieces quickly.
 
 ## Tools and Technologies
 
